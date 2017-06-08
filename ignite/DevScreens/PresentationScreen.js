@@ -7,7 +7,7 @@ import { StackNavigator } from 'react-navigation'
 import APITestingScreen from './APITestingScreen'
 import ComponentExamplesScreen from './ComponentExamplesScreen'
 import DeviceInfoScreen from './DeviceInfoScreen'
-import PluginExamplesScreen from './PluginExamplesScreen'
+// import PluginExamplesScreen from './PluginExamplesScreen'
 import ThemeScreen from './ThemeScreen'
 import FaqScreen from './FaqScreen'
 
@@ -20,7 +20,7 @@ class PresentationScreen extends React.Component {
   }
 
   openUsage = () => {
-    this.props.navigation.navigate('PluginExamplesScreen')
+    // this.props.navigation.navigate('PluginExamplesScreen')
   }
 
   openApi = () => {
@@ -86,7 +86,7 @@ export default StackNavigator({
   APITestingScreen: {screen: APITestingScreen},
   ComponentExamplesScreen: {screen: ComponentExamplesScreen},
   DeviceInfoScreen: {screen: DeviceInfoScreen},
-  PluginExamplesScreen: {screen: PluginExamplesScreen},
+  // PluginExamplesScreen: {screen: PluginExamplesScreen},
   ThemeScreen: {screen: ThemeScreen},
   FaqScreen: {screen: FaqScreen}
 }, {
